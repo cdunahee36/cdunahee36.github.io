@@ -18,3 +18,11 @@ article {
     margin: auto;
     align-content: space-between=10px;
 }
+
+img {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-items: center;
+}
