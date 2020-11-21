@@ -8,6 +8,10 @@
     justify-content: center;
 }
 
+body {
+    background-image: url("https://images.unsplash.com/photo-1600456899121-68eda5705257?ixlib=rb-1.2.1&w=1000&q=80");
+   }
+   
 .card-header {
     color: blue;
     align-content: center;
@@ -23,4 +27,8 @@
     width: auto;
     display: flex;
     justify-content: center;
+}
+
+.me {
+    outline: solid black 3px;
 }
