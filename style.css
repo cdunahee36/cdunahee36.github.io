@@ -1,34 +1,136 @@
-.card1 {
-    width: auto;
-    height: auto;
+#text {
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
-.bigcont {
+#secondary-text {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#bio-pic {
+    border: 2px solid white;
+    width: 2000px;
+    height: 300px;
+}
+
+.bio {
     display: flex;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
     justify-content: center;
 }
 
-body {
-    background-image: url("https://images.unsplash.com/photo-1600456899121-68eda5705257?ixlib=rb-1.2.1&w=1000&q=80");
+#bio-card, .bio-text, #header-bio {
+    padding: 10px;
 }
-   
-.card-header {
-    color: blue;
+
+#card1 {
+    width: 450px;
+    height: 200px;
+    display: flex;
     align-content: center;
 }
 
-.card-body1 {
-    width: auto;
+.personal-box1 {
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    background-color: black;
+}
+
+.personal-box2 {
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 80px;
+    width: 400px;
+    height: 250px;
+    background-color: black;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    height: 45px;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#sticky {
+    color: lightgray;
+    display: flex;
+    font-size: 10px;;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.pbox1 {
+    color: white;
+    margin-right: 90px;
+    margin-top: 5px;
+    margin-bottom: 0 auto;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.pbox2 {
+    color: white;
+    margin-right: 90px;
+    margin-top: 5px;
+    margin-bottom: 0 auto;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact-box1 {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+    
+}
+
+.headbox-1 {
+    margin-left: 107px;
+}
+
+.headbox-2 {
+    margin-left: 100px;
+}
+
+.link-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -33px;
+}
+
+.L1, .R1 {
+    margin-top: 22px;
+}
+
+.pic-header {
+    font-size: 35px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.me-pic {
     display: flex;
     justify-content: center;
 }
 
-.contpro {
-    width: auto;
-    display: flex;
-    justify-content: center;
-}
-
-.me {
-    outline: solid black 3px;
+.pro-pic {
+    border: 2px solid white;
 }
