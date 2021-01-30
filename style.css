@@ -5,16 +5,17 @@
 
 #secondary-text {
     color: white;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+    font-family: 'Imbue', serif;
+    font-size: 25px;
 }
 
-#foot-border {
-    border: 2px solid white;
+#secondary-text-head {
+    color: white;
+    font-family: 'Imbue', serif;
+    font-size: 40px;
 }
 
 #nav-border {
-    border: 2px solid white;
     background-color: black;
 }
 
@@ -33,16 +34,25 @@
 .bio {
     display: flex;
     margin: 0 auto;
+    margin-bottom: 65px;
     width: auto;
     height: auto;
     justify-content: center;
 }
 
-#bio-card, .bio-text {
+.bio-text {
+    display: flex;
+    justify-content: center;
     padding: 10px;
+    margin-right: 30px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+    
 }
 
 #header-bio {
+    display: flex;
+    justify-content: center;
     padding: 10px;
     margin-bottom: -20px;
 }
@@ -56,6 +66,7 @@
 
 .personal-box1 {
     border: 2px solid white;
+    box-shadow: 10px 10px;
     display: flex;
     justify-content: center;
     width: 400px;
@@ -63,8 +74,20 @@
     background-color: black;
 }
 
+.personal-proj-box1 {
+    border: 2px solid white;
+    box-shadow: 10px 10px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 150px;
+    background-color: black;
+    margin-bottom: 25px;
+}
+
 .personal-box2 {
     border: 2px solid white;
+    box-shadow: 10px 10px;
     display: flex;
     justify-content: center;
     margin-top: 40px;
@@ -72,6 +95,7 @@
     height: 250px;
     background-color: black;
 }
+
 
 .footer {
     position: fixed;
@@ -110,6 +134,8 @@
     font-family: 'Raleway', sans-serif;
 }
 
+
+
 .contact-box1 {
     display: flex;
     margin-top: 40px;
@@ -121,6 +147,13 @@
 
 .headbox-1 {
     margin-left: 107px;
+}
+
+.headboxP-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 12px;
 }
 
 .headbox-2 {
@@ -153,5 +186,45 @@
 }
 
 .pro-pic {
+    box-shadow: 10px 10px;
     border: 2px solid white;
+}
+
+.proj-text {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#proj-bg {
+    background-color: black;
+    box-shadow: 10px 10px;
+    margin-bottom: 15px;
+}
+
+.proj-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+#button-txt {
+    color: white;
+}
+
+.code-wt {
+    display: flex;
+    justify-content: center;
+}
+
+#dep-btn {
+    margin-right: 50px;
+}
+
+.proj-body-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 65px;
+
 }
