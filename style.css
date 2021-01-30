@@ -3,6 +3,11 @@
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.index-body {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
 #secondary-text {
     color: white;
     font-family: 'Imbue', serif;
@@ -180,6 +185,16 @@
     margin-bottom: 10px;
 }
 
+.pic-lang {
+    font-size: 18px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
 .me-pic {
     display: flex;
     justify-content: center;
@@ -224,7 +239,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 65px;
 
 }
